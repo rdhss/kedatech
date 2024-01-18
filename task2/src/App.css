@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.delay-1{
+  animation-delay: .15s;
+}
+
+.delay-2{
+  animation-delay: .25s;
+}
+
+.delay-3{
+  animation-delay: .35s;
+}
+
+.delay-4{
+  animation-delay: .45s;
+}
